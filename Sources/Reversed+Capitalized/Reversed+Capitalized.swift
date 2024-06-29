@@ -36,7 +36,7 @@ import Foundation
 /// # Tests
 ///  Ejecuta los tests Reversed+CapitalizedTests y verifica que la función pasa todos los tests
 //   ¿Pasan los tests de nivel 1?
-//   ¿Pasan los tests de nivel 2
+//   ¿Pasan los tests de nivel 2?
 //   ¿Pasan los tests de nivel 3?
 //
 
