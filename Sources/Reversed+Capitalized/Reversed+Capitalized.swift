@@ -32,6 +32,7 @@ import Foundation
 //     si se introducen solo espacios en blanco?
 //     si hay varios espacios entre las palabras?
 //     si hay saltos de línea \n?
+//   Puede que necesites regex para resolver algunos casos
 //
 /// # Tests
 ///  Ejecuta los tests Reversed+CapitalizedTests y verifica que la función pasa todos los tests

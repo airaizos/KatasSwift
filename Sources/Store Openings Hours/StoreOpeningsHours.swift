@@ -21,7 +21,7 @@ import Foundation
 //  Tuple Treasures: Abierta de lunes a domingo las 24 horas del día, incluidos festivos.
 //  tupleTreasures.isOpen(now: lunes0700h) = true
 //
-//  ClosureClothingCo. Abierta de lunes a viernes de 09:00 a 14:: y de 17:00 a 20:30. Los días festivos cerrada.
+//  ClosureClothingCo. Abierta de lunes a viernes de 09:00 a 14:00 y de 17:00 a 20:30. Los días festivos cerrada.
 //  closureClothingCo.isOpen(now: sabado1400h) = false
 //
 ///## Instrucciones
@@ -29,7 +29,6 @@ import Foundation
 //  La función isOpen debe aceptar una fecha determinada y calcular si la tienda está abierta o no.
 //  En la extension de Horario añade las propiedades estáticas que cumplan con los horarios indicados.
 //
-
 //  Los horarios pueden tener una o varias de las siguientes características:
 //  1. Abrir todos o algunos días de la semana
 //  2. Tener horario ininterrumpido u horario partido
@@ -37,16 +36,26 @@ import Foundation
 //  4. Algunas tiendas abren los días festivos
 //  5. En algunos meses el horario puede ser diferente. Por ejemplo Agosto
 //
+//  Listado de tiendas
+//  Tuple Treasures: Abierta de lunes a domingo las 24 horas del día, incluidos festivos.
+//  Optionals & Oranges: Abierta de lunes a domingo de 09:30 a 22:00 h, incluso festivos.
+//  Byte Sized Swifties: Abierta de lunes a domingo de 09:30 a 13:30 y de 16:30 a 21:30 h, incluso festivos.
+//  Enum Emporium: Abierta de lunes a sábado de 9:30 a 22:00. Los días festivos cerrada.
+//  Lazy Var Linens: Abierta de lunes a sábado de 09:30 a 13:30 y de 16:30 a 22:00. Los días festivos cerrada.
+//  Closure Clothing Co: Abierta de lunes a viernes de 09:00 a 14:00 y de 17:00 a 20:30. Los días festivos cerrada.
+//  Protocol Pottery: Abierta de lunes a viernes de 09:30 a 13:30 y de 17:00 a 20:00. Sábados de 09:30 a 13:30. Los días festivos cerrada.
+//  Guard & Go Grocery: Abierta de lunes a domingo de 09:00 a 13:30 y de 16:30 a 21:30. Durante Junio, Junio y Agosto el horario es de 09:15 a 13:45 y de 17:00 a 21:30. Los días festivos cerrada.
+//  Syntax Sugar Sweets: Abierta de lunes a viernes de 09:15 a 13:45 y de 17:00 a 20:00. Sábados de 09:30 a 14:00. En agosto los sábados cerrada. Los días festivos cerrada.
+//  Floating Flowers: Abierta de lunes a sábado de 09:30 a 21:30. Durante Junio, Julio y Agosto el horario es de 09:15 a 21:30. Los días festivos cerrada.
+//
 ///   # Tips
-//  Puedes crear todos los structs que necesites
-//  Puedes crear todas las extensiones que necesites
-//  Comienza con los casos más sencillos y continua de maneera incremental
+//  Crea todos los structs  y extensiones que necesites
+//  Comienza con los casos más sencillos y avanza a partir de los ya resultos
 //  Observa el tiempo que tardan los tests en ejecutarse
 //
 /// # Tests
 /// Ejecuta los tests de StoreOpeningHoursTests
 //  Hay 9 tests que deben de pasar.
-
 
 struct Horario: Abierta {
     //Añade aqui las propiedes y structs que consideres necesarios
@@ -85,6 +94,3 @@ extension Horario: Tienda {
     //Abierta de lunes a sábado de 09:30 a 21:30. Durante Junio, Julio y Agosto el horario es de 09:15 a 21:30. Los días festivos cerrada.
     public static let abierta_LunSab_0930a2130_JunioJulioAgosto_0915a2130_FestivosCerrada = Horario()
 }
-
-
-
