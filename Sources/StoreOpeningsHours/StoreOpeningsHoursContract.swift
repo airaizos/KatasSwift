@@ -32,4 +32,4 @@ protocol Tienda {
     
 }
 
-let festivos = [Date.from(yy: 2024, mm: 11, dd: 1, h: 15, minute: 15), Date.from(yy: 2024, mm: 5, dd: 1, h: 15, minute: 15)]
+let festivos = [Date.from(year: 2024, month: 11, day: 1, hour: 15, minute: 15), Date.from(year: 2024, month: 5, day: 1, hour: 15, minute: 15)]

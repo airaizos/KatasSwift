@@ -16,7 +16,7 @@
 🍴**No lo dudes haz un fork del repositorio, ábrelo en Xcode y comienza a practicar.**
 
 
-🙋🏻 Si quieres compartirlo, cambia el nombre de la clase y de los tests y  siéntete libre de hacer un `Pull Request`.
-
+🙋🏻 Si quieres compartirlo, cambia el nombre de la clase y de los tests y siéntete libre de hacer un `Pull Request`.
+🔍 Si encuentras algún error en las instrucciones, tests o en algún parte del repositorio, dímelo.
 
 ❗️ *Nota: Ten en cuenta que es un Package.swift no un xcodeproj.*

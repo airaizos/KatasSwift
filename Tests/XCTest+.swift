@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  
+//
 //
 //  Created by Adrian Iraizos Mendoza on 4/7/24.
 //
@@ -9,7 +9,7 @@ import Foundation
 import XCTest
 
 extension XCTest {
-func XCTAssertThrowsErrorEqual<E: Error & Equatable>(_ expression: @autoclosure () throws -> any Equatable,
+    func XCTAssertThrowsErrorEqual<E: Error & Equatable>(_ expression: @autoclosure () throws -> any Equatable,
                                                          _ expectedError: E,
                                                          file: StaticString = #file,
                                                          line: UInt = #line) {
