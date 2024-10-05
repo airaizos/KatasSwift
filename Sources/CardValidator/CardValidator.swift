@@ -44,12 +44,12 @@ enum CardError: Error {
     case negativo, formato
 }
 struct BankCard {
-    let group1: Int
-    let group2: Int
-    let group3: Int
-    let group4: Int
+    let group1: String
+    let group2: String
+    let group3: String
+    let group4: String
     
-    init(_ group1: Int,_ group2: Int,_ group3: Int,_ group4: Int) {
+    init(_ group1: String,_ group2: String,_ group3: String,_ group4: String) {
         self.group1 = group1
         self.group2 = group2
         self.group3 = group3
