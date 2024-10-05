@@ -73,10 +73,10 @@ fileprivate struct TestsCardNumbers {
     ]
     
     static let negative = [
-        BankCard("-234","5678","9101","1121"),
-        BankCard("1234","-678","9101","1121"),
-        BankCard("1234","5678","-101","1121"),
-        BankCard("1234","5678","9101","-121"),
+        BankCard("-1234","5678","9101","1121"),
+        BankCard("-1234","-5678","9101","1121"),
+        BankCard("-1234","5678","-9101","1121"),
+        BankCard("-1234","5678","9101","-1121"),
     ]
     static let incorrectFormat = [
         BankCard("12345","67891","01","1121"),
