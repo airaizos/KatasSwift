@@ -46,8 +46,9 @@ final class Ahorcado {
             self.fallosPermitidos = fallosPermitidos
             self.listadoPalabras = listadoPalabras
             let randomIndex = Int.random(in: 0..<listadoPalabras.count)
-            self.palabraObjetivo = listadoPalabras[randomIndex]
+            self.palabraObjetivo = listadoPalabras[randomIndex].uppercased()
             self.letrasRestantes = palabraObjetivo.map { "\($0)" }
+            self.letrasAdivinadas = palabraObjetivo.map { _ in "_" }
         }
     
     func intentoCon(letra: Character) -> String {
